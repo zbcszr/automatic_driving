@@ -1,5 +1,6 @@
 # carla_cil_pytorch
 
+## Code from Lai Tai, this repo is for study purpose only 
 
 The pytorch implementation to train the uncertain aware imitation learning policy in "Visual-based Autonomous Driving Deployment from a Stochastic and Uncertainty-aware Perspective".
 
