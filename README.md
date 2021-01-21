@@ -1,10 +1,11 @@
 # carla_cil_pytorch
 
-## Code from Lai Tai, this repo is for study purpose only 
+The pytorch implementation to train the uncertain aware imitation learning policy in "conditional imitation learning based AI that runs on CARLA". 
 
-The pytorch implementation to train the uncertain aware imitation learning policy in "Visual-based Autonomous Driving Deployment from a Stochastic and Uncertainty-aware Perspective".
+## Current progress
+Attempting to train network through self-collected and self-preprocessed dataset. I pray to lord
 
-## Requirements
+## System
 python 3.6    
 pytorch > 0.4.0    
 tensorboardX    
@@ -12,28 +13,11 @@ opencv
 imagaug    
 h5py    
 
-please  check ***docker/docker_build/Dockerfile*** for details.
+please refer ***docker/docker_build/Dockerfile*** for details.
 
 ## Train
 **train-dir** and **eval-dir** should point to where the [Carla dataset](https://github.com/carla-simulator/imitation-learning/blob/master/README.md) located.
 Please check our [paper](https://arxiv.org/abs/1903.00821) that how we split the train and eval dataset.
-```
-$ python main.py
-  --batch-size 1000
-  --workers 24
-  --speed-weight 1
-  --learning-rate 0.0001
-  --lr-gamma 0.5
-  --lr-step 10
-  --train-dir "/path/to/the/training_data"
-  --eval-dir "/path/to/the/eval_data"
-  --net-structure 2
-  --gpu 0
-  --id name_of_policy
-```
-Check the training log through tensorboard.
-```
-$ tensorboard --logdir runs
 ```
 
 ## Docker
@@ -45,14 +29,6 @@ $ cd docker/carla_cil_compose
 $ docker-compose up -d
 ```
 We can still use tensorboard to check the log out of the docker.
-
-## Dataset
-Please check the original [dataset](https://github.com/carla-simulator/imitation-learning/blob/master/README.md) of Carla Imitation Learning.    
-Please check this [issue](https://github.com/carla-simulator/imitation-learning/issues/1) for data augmentation.
-
-## Benchmark
-Please reference [carla_cil_pytorch_eval](https://github.com/onlytailei/carla_cil_pytorch_eval/blob/pytorch_eval/README.md).    
-For the benchmark results, please check our paper [Visual-based Autonomous Driving Deployment from a Stochastic and Uncertainty-aware Perspective](https://arxiv.org/abs/1903.00821).
 
 ## Reference
 [carla-simulator/imitation-learning](https://github.com/carla-simulator/imitation-learning)    
