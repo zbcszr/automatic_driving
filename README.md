@@ -1,4 +1,5 @@
-# carla_cil_pytorch
+
+carla_cil pytorch var.
 
 The pytorch implementation to train the uncertain aware imitation learning policy in "conditional imitation learning based AI that runs on CARLA". 
 
