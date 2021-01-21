@@ -1,7 +1,7 @@
 ## automatic_driving
 carla_cil pytorch var.
 
-The pytorch implementation to train the uncertain aware imitation learning policy in "conditional imitation learning based AI that runs on CARLA". 
+A pytorch implementation to train the uncertain aware imitation learning policy in "[conditional imitation learning based AI that runs on CARLA](https://github.com/carla-simulator/imitation-learning)". 
 
 ## Current progress
 Attempting to train network through self-collected and self-preprocessed dataset. I pray to lord
