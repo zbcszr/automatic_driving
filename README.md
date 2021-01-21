@@ -40,24 +40,3 @@ We can still use tensorboard to check the log out of the docker.
 
 The code for original "End-to-end Driving via Conditional Imitation Learning" and "CARLA: An Open Urban Driving Simulator" is in the [master branch](https://github.com/onlytailei/carla_cil_pytorch/tree/master). In the paper VR-Goggles, we also used the original setup to train the policy.
 
-Please consider to cite our paper if thie repo helps:
-```
-@inproceedings{tai2019visual,
-  author={Tai, Lei and Yun, Peng and Chen, Yuying and Liu, Congcong and Ye, Haoyang and Liu, Ming},
-  title={Visual-based Autonomous Driving Deployment from a Stochastic and Uncertainty-aware Perspective},
-  booktitle={2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-  year={2019}
-}
-@ARTICLE{zhang2019vrgoggles,
-  author={Zhang, Jingwei and Tai, Lei and Yun, Peng and Xiong, Yufeng and Liu, Ming and Boedecker, Joschka and Burgard, Wolfram},
-  journal={IEEE Robotics and Automation Letters},
-  title={VR-Goggles for Robots: Real-to-Sim Domain Adaptation for Visual Control},
-  year={2019},
-  volume={4},
-  number={2},
-  pages={1148-1155},
-  keywords={Visualization;Training;Robots;Adaptation models;Semantics;Task analysis;Navigation;Deep learning in robotics and automation;visual-based navigation;model learning for control},
-  doi={10.1109/LRA.2019.2894216},
-  ISSN={2377-3766},
-  month={April},}
-```
