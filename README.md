@@ -18,7 +18,7 @@ please refer ***docker/docker_build/Dockerfile*** for details.
 
 ## Train
 **train-dir** and **eval-dir** should point to where the [Carla dataset](https://github.com/carla-simulator/imitation-learning/blob/master/README.md) located.
-Please check our [paper](https://arxiv.org/abs/1903.00821) that how we split the train and eval dataset.
+Please check the reference [paper](https://arxiv.org/abs/1903.00821) on why to split the train and eval dataset this way.
 ```
 
 ## Docker
